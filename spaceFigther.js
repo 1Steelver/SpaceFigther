@@ -10,8 +10,8 @@ window.onload = function () {
 			mensaje("S.W.");
 			imgNave = new Image();
 			imgOvni = new Image();
-			imgOvni.src = "imagenes/ovni.png";
-			imgNave.src = "imagenes/nave.png";
+			imgOvni.src = "/ovni.png";
+			imgNave.src = "/nave.png";
 			imgNave.onload = function () {
 				nave = new nave(0);
 			}
